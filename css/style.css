@@ -26,11 +26,6 @@ header {
 }
 
 
-
-/* .logo p:hover {
-    font-weight: bold;
-} */
-
 .menu {
     width: 40%;
     margin: auto;
@@ -140,15 +135,18 @@ header {
 }
 
 .row-button button:hover {
-    background-color: #25bdc0;
+    background-color: #10babd;
     color: black;
 }
 
+
 .row-button img {
-    /* width: 10%;
-    height: 80%; */
     margin-left: 5%;
     /* box-shadow: 3px 3px 3px #d2d4d4; */
+}
+
+.row-button img:hover {
+    width: 10%;
 }
 
 .content {
@@ -365,6 +363,10 @@ header {
     width: 100%;
 }
 
+.testimonial-container .button-control img:hover {
+    width: 26%
+}
+
 .CTA-content {
     width: 100%;
     padding: 2rem 0;
@@ -410,9 +412,13 @@ header {
     width: 5%;
     margin: auto;
 } */
-*/ .footer-clean {
+.footer-clean {
     height: 300px;
-    width: 80%;
+    width: 100%;
+}
+
+.footer-clean .container {
+    width: 100%;
 }
 
 .footer-clean .row {
@@ -427,17 +433,21 @@ header {
     list-style: none;
     /* margin-right: ; */
     vertical-align: top;
-    text-align: justify;
+    /* text-align: justify;
+     */
+    justify-content: space-between;
     width: 100%;
     /* padding-right: 10%; */
 
 }
 
-/* .footer-clean .container .item .logo {
-    width: ;
-} */
+.footer-clean .container .logo {
+    width: 70%;
+}
+
 .footer-clean .container .item ul {
     width: 100%;
+    justify-content: space-between;
 }
 
 .footer-clean .container .item li {
@@ -448,13 +458,13 @@ header {
 .footer-clean .container .item li a {
     color: #535353;
     text-decoration: none;
-
 }
+
 
 .footer-clean .container .item h3 {
     text-decoration: none;
     margin-top: 10px;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .footer-clean .container .item p {
@@ -469,12 +479,8 @@ header {
     display: flex;
     margin-top: 30px;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 32%;
 }
-
-/* .footer-clean .item-social img {
-    margin-top: 5%;
-} */
 
 
 .footer-clean #row2 p {
